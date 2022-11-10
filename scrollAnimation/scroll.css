@@ -1,0 +1,44 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+html,body{
+    width : 100vw;
+    height : 500vh;
+    position : relative;
+}
+
+.container{
+    position : relative;
+    width : 100vw;
+    height : 100%;
+    background-color: #d6e8ee;
+    display : flex;
+    flex-direction: column;
+}
+
+.container > .content{
+    flex-grow : 1;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 3.5rem;
+    font-weight : 800;
+    font-style: italic;
+}
+.content1{
+    background-color: cadetblue;
+}
+.content2{
+    background-color: paleturquoise;
+}
+.content3{
+    background-color: palegreen;
+}
+.content4{
+    background-color: palevioletred;
+}
+.content5{
+    background-color: azure;
+}
